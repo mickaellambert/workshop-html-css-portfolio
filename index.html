@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Mon premier portfolio</title>
+
+        <!-- Fichier CSS contenant le style de notre site -->
+        <link rel="stylesheet" href="style.css">
+
+        <!-- 
+            Fichier permettant de remettre à zéro les modifications CSS 
+            effectuées par les différents navigateurs
+        -->
+        <link rel="stylesheet" href="reset.css">
+    </head>
+
+    <body>
+        <header>
+            <!-- Notre barre de navigation -->
+            <nav>
+                <a href="/">
+                    <img src="images/logo.png" alt="Logo" width="150" height="120" class="logo">
+                </a>
+                <ul>
+                    <li>
+                        <a href="#about-me">Mon profil</a>
+                    </li>
+                    <li>
+                        <a href="#experiences">Mes expériences</a>
+                    </li>
+                    <li>
+                        <!-- TODO : Connecter le lien vers la section "Mes loisirs" -->
+                        <a href="">Mes loisirs</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <!-- Notre bannière principale -->
+            <div class="banner"></div>
+
+            <!-- La section "Mon profil" -->
+            <section id="about-me">
+                <h1>Qui suis-je ?</h1>
+                <p>
+                    Ce paragraphe va vous servir pour raconter un peu votre vie, vos objectifs, vos fiertés, vos échecs. 
+                    Pourquoi se lancer dans le développement web ? Qu'est ce qui vous attire dans ce métier etc.
+                    <br><br>
+                    Personnellement, j'ai exercé ce métier durant 10 ans. J'ai décidé de devenir formateur pour partager ce 
+                    que j'ai appris aux autres. Qu'ils évitent de faire les mêmes erreurs que moi et qu'ils partagent mes valeurs 
+                    que sont l'indulgence lors de l'apprentissage, la bienveillance et l'entraide.
+                </p>
+            </section>
+
+            <!-- La section "Mes expériences" -->
+            <section id="experiences">
+                <h1>Mes expériences</h1>
+
+                <article>
+                    <img src="images/easyrecrue.png" width="150">
+
+                    <div>
+                        <h2>Full-stack Developer</h2>
+                        <h3>EasyRecrue</h3>
+                        <span>sept. 2009 - sept. 2010 / 1 an</span>
+                        <p>
+                            J'ai participé aux développements fonctionnels et architecturaux d'EasyRecrue. 
+                            J'ai échangé avec l'équipe produit sur les développements en cours et ceux à venir, et j'ai garanti l'évolution et le maintien à jour technologique de leurs solutions.
+                            <br><br>
+                            Technologies utilisées :
+                            Unix, Debian, Apache 2, PHP (POO, MVC), MySQL, RabbitMQ, Redis, WebRTC, HTML, Javascript + jQuery, CSS 3 + Bootstrap 3.
+                            <br><br>
+                            Outils utilisés : 
+                            Gettext, Git, Atlassian Bitbucket, Atlassian JIRA, ffmpeg
+                        </p>
+                    </div>
+                </article>
+                
+                <div class="separation"></div>
+
+                <article>
+                    <img src="images/lydia.png" width="150">
+
+                    <div>
+                        <h2>Full-stack Developer</h2>
+                        <h3>Lydia</h3>
+                        <span>juin 2017 - juil. 2018 · 1 an 2 mois</span>
+                        <p>
+                            Dans un premier temps chez Lydia, j'ai travaillé sur le processus de KYC (Know Your Customer) : un système de contrôle d'identité des utilisateurs
+                            <br><br>
+                            Dans un second temps, j'ai travaillé sur l'internationalisation de Lydia via l'intégration des virements vers les Royaumes Unis.
+                            <br><br>
+                            J'ai ensuite développé plusieurs fonctionnalités de l'application en collaboration avec les développeurs mobiles et l'UX designer, via la création / modification de services. 
+                            <br><br>
+                            - Les transactions récurrentes
+                            <br>
+                            - Refonte du système de mot de passe oublié (API de reconnaissance faciale)
+                            <br>
+                            - Le paiement en 3x sans frais pour les clients pro
+                            <br><br>
+                            D'autres tâches me furent confiées : 
+                            <br><br>
+                            - Amélioration du site Internet (HTML5 / CSS3 / Javascript / jQuery).
+                            <br>
+                            - Amélioration des scripts permettant la réalisation des virements quotidiens.
+                            <br>
+                            - Rédaction de documents de spécifications sur ces différents projets.
+                        </p>
+                    </div>
+                </article>
+                
+                <div class="separation"></div>
+
+                <article>
+                    <img src="images/playrion.jpeg" width="150">
+
+                    <div>
+                        <h2>Développeur web</h2>
+                        <h3>Playrion</h3>
+                        <span>janv. 2011 - avr. 2011 · 4 mois</span>
+                        <p>
+                            Ajout de différentes fonctionnalités au jeu par navigateur Airlines Manager. Celles ci ont été réalisées à l'aide des langages suivant : 
+                            <br>
+                            PHP, Javascript/Jquery/Ajax, HTML, CSS, XML
+                            <br><br>
+                            <a target="_blank" href="http://www.airlines-manager.com/">Voir le site</a>
+                        </p>
+                    </div>
+                </article>
+
+                <div class="separation"></div>
+
+                <article>
+                    <img src="images/pap.png" width="150">
+                    <div>
+                        <h2>Développeur web</h2>
+                        <h3>De Particulier à Particulier</h3>
+                        <span>sept. 2009 - sept. 2010 · 1 an</span>
+                        <p>
+                            Développeur Web pour le site de Particulier à Particulier dans le cadre de mon année de Licence STIC au CNAM
+                            <br><br>
+                            Participation au projet de création de la rubrique colocation du site internet
+                        </p>
+                    </div>
+                </article>
+            </section>
+
+            <!-- TODO : La partie "Mes loisirs" -->
+            <section id="hobbies">
+
+            </section>
+        </main>
+        <footer>
+            <!-- TODO : Ajouter vos réseaux sociaux -->
+        </footer>
+    </body>
+</html>
